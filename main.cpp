@@ -2,7 +2,7 @@
 Name: Yousef Al-Jazzazi 
 netID: ya2225
 Asssignment 1 for CPE class
-Project name:  Civil Engineering Case Study – Aviation Safety
+Project name:  Civil Engineering Case Study ï¿½ Aviation Safety
 Description: The program checks whether the location detecting systems in airplanes are up to aviation safety standards. 
 
 */
@@ -142,7 +142,7 @@ void calcError() {
 //A function to display the errors stored in the error file
 void displayError() {
 	ifstream errLog;
-	errLog.open("ERR.LOG", ios::_Nocreate);
+	errLog.open("ERR.LOG");
 	
 	//In case the error file has not been created 
 	if (errLog.fail()) {
